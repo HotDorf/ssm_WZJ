@@ -7,4 +7,5 @@ public interface ItemsDao {
     //根据id查询数据
     public Items findById(Integer id);
 
+    public Items findAll();
 }
